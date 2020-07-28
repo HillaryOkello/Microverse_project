@@ -1,12 +1,31 @@
 #welcome-section {
     height: 100vh;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
   }
+
 #welcome-section h1 {
     text-align: center;
 }
+#projects{
+    height: 50vh;
+}
+.project{
+    width: 200px;
+}
+.project-title {
+    white-space: nowrap;
+}
+.project:not(:last-child){
+    margin-right: 20px;
+}
+#projects .project .img-project{
+    width: 100%;
+    height: auto;
+}
+
+/* Small Devices */
 @media (max-width: 767.98px) { 
     #welcome-section{
         background-color: brown;
