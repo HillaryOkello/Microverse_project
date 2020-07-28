@@ -11,16 +11,16 @@
 #projects{
     height: 50vh;
 }
-.project{
+.project-tile{
     width: 200px;
 }
-.project-title {
+.project-tile h2 {
     white-space: nowrap;
 }
-.project:not(:last-child){
+.project-tile:not(:last-child){
     margin-right: 20px;
 }
-#projects .project .img-project{
+#projects .project-tile .img-project{
     width: 100%;
     height: auto;
 }
